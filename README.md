@@ -36,4 +36,11 @@ Then Run:
 
 ## Next Steps
 
-Instructions for using CoquiTTS and FastSpeech2 to train a model.
+Download model artifact:
+
+- https://huggingface.co/espnet/fastspeech2_conformer/tree/main
+
+Train with FastSpeech2 using CoquiTTS:
+- https://github.com/coqui-ai/TTS
+- https://github.com/coqui-ai/TTS/blob/dev/recipes/ljspeech/fastspeech2/train_fastspeech2.py
+- https://github.com/coqui-ai/TTS/tree/dev/recipes
