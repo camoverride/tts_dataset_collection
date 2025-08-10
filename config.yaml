@@ -1,5 +1,11 @@
-# Dataset from YouTube. NOTE: must be clean!
+# List of YouTube videos
 youtube_data_url_list: ["https://www.youtube.com/watch?v=EctzLTFrktc"]
-dataset_save_location: "./datasets/bezos_data"
-chunked_wav_save_location: "./bezos_data/wavs"
+
+# Should be something like "./datasets/jeff_bezos"
+dataset_save_location: "./datasets/jeff_bezos"
+
+# Should be something like "./datasets/jeff_bezos/wavs"
+chunked_wav_save_location: "./datasets/jeff_bezos/wavs"
+
+# Does not need the full path, as it's written to `dataset_save_location`
 metadata_filename: metadata.txt
