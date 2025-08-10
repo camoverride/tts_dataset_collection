@@ -1,0 +1,7 @@
+# General stuff
+.venv
+.DS_Store
+__pycache__
+
+# Datasets
+datasets

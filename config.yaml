@@ -1,0 +1,5 @@
+# Dataset from YouTube. NOTE: must be clean!
+youtube_data_url_list: ["https://www.youtube.com/watch?v=EctzLTFrktc"]
+dataset_save_location: "./datasets/bezos_data"
+chunked_wav_save_location: "./bezos_data/wavs"
+metadata_filename: metadata.txt
