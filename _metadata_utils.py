@@ -8,9 +8,11 @@ import yaml
 def normalize_text(text : str) -> str:
     """
     Normalize the text:
-    - Uppercase.
+    - Lowercase.
     - Remove punctuation except apostrophes.
     - Collapse spaces.
+
+    See the docs for more: https://docs.coqui.ai/en/latest/formatting_your_dataset.html
 
     Parameters
     ---------
@@ -22,8 +24,8 @@ def normalize_text(text : str) -> str:
     str
         Text normalized for Coqui TTS.    
     """
-    text = text.upper()
-    text = re.sub(r"[^A-Z0-9' ]+", "", text)
+    text = text.lower()
+    text = re.sub(r"[^a-z0-9' ]+", "", text)
     text = re.sub(r"\s+", " ", text).strip()
 
     return text
