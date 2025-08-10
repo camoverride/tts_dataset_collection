@@ -1,8 +1,8 @@
 import os
 import yaml
-from youtube_download_utils import download_youtube_audio
-from vad_utils import vad_chunk_audio, load_silero_vad
-from metadata_utils import transcribe_wavs_to_txt
+from _youtube_download_utils import download_youtube_audio
+from _vad_utils import vad_chunk_audio, load_silero_vad
+from _metadata_utils import transcribe_wavs_to_txt
 
 
 
